@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600;700;800&display=swap');
-body{
+
+body {
   margin: 0;
   background-color: bisque;
 }
@@ -27,14 +28,23 @@ body{
   font-size: 64px;
   line-height: 102px;
   /* identical to box height */
-  
-  
+
+
   color: #FFFFFF;
 }
 
-.menu__group{
+.menu__column {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
 
+
+
+.menu__flex {
+  display: flex;
+}
+
+.ul__flex {
+  display: flex;
+  max-width: 27px;
+  max-height: 24px;
 }
